@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>react-app</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <div id='root'></div>
+    <script src="../../node_modules/react/umd/react.development.js"></script>
+    <script src="../../node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "react": "/src/day02/lib/react.js",
+                "react-dom": "/src/day02/lib/react-dom.js",
+                "imgList": "/src/day02/lib/imglist.js",
+                "slids": "/src/day02/view/slids.js"
+            }
+        }
+    </script>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
